@@ -67,8 +67,8 @@ input {
     font-style: italic;
 }
 
-@media screen and (max-width: 600px)
-{
+@media screen and (max-width: 600px) {
+
     .title {
         font-size: 36px;
     }
