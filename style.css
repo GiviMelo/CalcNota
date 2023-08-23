@@ -66,3 +66,45 @@ input {
     font-size: medium;
     font-style: italic;
 }
+
+@media screen and (max-width: 600px)
+{
+    .title {
+        font-size: 36px;
+    }
+    
+    .calc {
+        background: var(--white);
+        padding: 7px;
+        border-radius: 15px;
+        width: auto;
+        margin: auto;
+    }
+
+    input {
+        margin: 5px;
+        border-radius: 5px;
+        border-color: rgb(0, 174, 255);
+        height: 35px;
+        font-size: large;
+        width: 100px;
+    }
+
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .label {
+        background: orange;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    #mediaInp {
+        margin-left: 0px;
+        border-radius: 5px;
+    }
+}
